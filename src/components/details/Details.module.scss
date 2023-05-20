@@ -1,0 +1,30 @@
+.details__wrapper {
+	display: flex;
+	align-items: center;
+	margin-top: 8px;
+}
+.details__info {
+	width: 409.91px;
+	height: 54px;
+	background: #ffffff;
+	border: 1px solid #a2a3a4;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	padding: 13px 16px 16px 13px;
+	text-decoration: none;
+}
+.details__button {
+	background: #00a3ff;
+	border: 1px solid #a2a3a4;
+	width: 63.93px;
+	height: 54px;
+	cursor: pointer;
+}
+.details__button::after {
+	content: url('../../assets/images//Rectangle8.svg');
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin: 0 auto;
+}

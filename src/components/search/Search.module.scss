@@ -1,0 +1,37 @@
+.search {
+	background: #dddddd;
+	width: 1440px;
+	height: 147px;
+}
+.search__wrapper {
+	display: flex;
+	align-items: center;
+}
+.search__input {
+	width: 100%;
+	margin: 32px 0px 47px 25px;
+	background: #ffffff;
+	border: 1px solid #a2a3a4;
+	height: 68px;
+	box-sizing: border-box;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	color: #000000;
+}
+.search__button {
+	margin: 32px 39px 47px 0px;
+	background: #00a3ff;
+	border: 1px solid #a2a3a4;
+	width: 74px;
+	height: 68px;
+	cursor: pointer;
+}
+.search__button::after {
+	content: url('../../assets/images//Rectangle.svg');
+	display: block;
+	width: 51px;
+	height: 41px;
+	margin: 0 auto;
+}

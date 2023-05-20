@@ -1,0 +1,22 @@
+.selected {
+	width: 71px;
+	height: 44px;
+}
+
+.selected {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	background-position: calc(100% - 5px) center !important;
+	background: url('../../assets/images/Polygon1.svg') no-repeat;
+	padding: 8px 32px 8px 16px;
+}
+
+option {
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
