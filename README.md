@@ -28,7 +28,7 @@
 — State-manager: ReduxToolkit
 — API: Github
 — Pretier
-- Sass
+— Sass
 
 ## Работа с проектом
 
