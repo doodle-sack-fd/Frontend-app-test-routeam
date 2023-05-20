@@ -4,7 +4,10 @@
 
 ## О сервисе
 
-Сервис данных пользователей github
+Сервис данных пользователей github,
+
+## О localstorage
+
 Данные search/currentPages хранятся в localStorage, 
 
 Поиск: 
