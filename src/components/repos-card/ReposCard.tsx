@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { CUR_REP } from '../../services/api'
 
@@ -40,6 +41,9 @@ const ReposCard = () => {
 						alt='img'
 					/>
 					<p>{currRep?.owner?.login}</p>
+					<Link to='/'>
+						<button>Обратно</button>
+					</Link>
 				</div>
 			)}
 		</div>
